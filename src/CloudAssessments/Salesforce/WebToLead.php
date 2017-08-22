@@ -1,18 +1,18 @@
-<?php namespace LinuxAcademy\Salesforce;
+<?php namespace CloudAssessments\Salesforce;
 
 /**
  * WebToLead.php
  *
  * Sending form submissions to Salesforce using their Web-to-Lead feature.
  *
- * @author Kurt Maine <kurt@linuxacademy.com>
+ * @author Kurt Maine <kurt@cloudassessments.com>
  */
 
 
 /**
  * Class WebToLead
  *
- * @package LinuxAcademy\Salesforce\WebToLead
+ * @package CloudAssessments\Salesforce\WebToLead
  */
 class WebToLead
 {
@@ -154,6 +154,8 @@ class WebToLead
         if (!$this->defaultFields['oid'] && is_string($this->defaultFields['oid']) && $this->defaultFields['oid'] != '') {
             throw new \InvalidArgumentException('The unique Salesforce account ID (oid) must be set as a string.');
         }
+
+        return true;
     }
 
 
