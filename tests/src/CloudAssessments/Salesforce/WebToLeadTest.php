@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @author Kurt Maine <kurt@linuxacademy.com>
+ * @author Kurt Maine <kurt@cloudassessments.com>
  */
 
 class WebToLeadTest extends PHPUnit_Framework_TestCase
