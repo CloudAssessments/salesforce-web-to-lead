@@ -15,7 +15,8 @@ Features
 
 Usage
 --------
-```use CloudAssessments\Salesforce\WebToLead;
+```
+use CloudAssessments\Salesforce\WebToLead;
 
 $form = new WebToLead();
 $form
