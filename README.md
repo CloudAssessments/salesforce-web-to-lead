@@ -25,6 +25,7 @@ $form
         [                                              
             'first_name'      => 'John',               
             'last_name'       => 'Doe',                
+            'email'           => 'johndoe@example.com',
             'phone'           => '555-123-4567',       
             'company'         => 'Acme Inc.',          
             'lead_source'     => 'Web-to-Lead',        
