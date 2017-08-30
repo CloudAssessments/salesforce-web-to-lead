@@ -1,6 +1,6 @@
 {
     "name": "cloudassessments/salesforce-web-to-lead",
-    "description": "A PHP package for submitting data to Salesforce using their Web-to-Lead method.",
+    "description": "A PHP package for submitting data to Salesforce from the backend using their frontend Web-to-Lead method.",
     "homepage": "https://github.com/CloudAssessments/salesforce-web-to-lead",
     "keywords": [
         "salesforce",
