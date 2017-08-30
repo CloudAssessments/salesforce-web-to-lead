@@ -1,5 +1,4 @@
-Salesforce Web-to-Lead
-=========================
+## Salesforce Web-to-Lead
 
 Generally when using Salesforce's Web-to-Lead feature to send form submissions to your Salesforce instance you have to send them from the frontend by setting the HTML form target attribute to a salesforce.com URL, by-passing your own controllers and not storing submission info in your own database.
 
@@ -13,9 +12,19 @@ Features
 * A debug option that when enabled will send you an email from Salesforce on each submission informing you whether the lead was successfully sent; and if it was not, details on what went wrong. 
 * Method-chaining
 
-Usage
---------
+## Installation
+
+Install the latest version with
+
+```bash
+$ composer require cloudassessments/salesforce-web-to-lead
 ```
+
+## Basic Usage
+
+```php
+<?php
+
 use CloudAssessments\Salesforce\WebToLead;
 
 $form = new WebToLead();
